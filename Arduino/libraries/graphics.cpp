@@ -1,3 +1,8 @@
+// 1-bit cricket team icons - all BBL T20 teams and AUS, IND, ENG, SA international teamsbit maps 
+// Menu Screen bitmap
+// Loading screen bitmap
+// Game Selection bitmap
+
 #include "graphics.h"
 
 const uint8_t ADS[] PROGMEM = {
