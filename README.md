@@ -17,3 +17,8 @@ A battery-powered, rechargeable desk widget for tracking cricket scores. It uses
 
 ## Schematic
 <img width="1000" alt="Schematic" src="https://github.com/user-attachments/assets/2464f80f-3ea2-4ae8-b760-72a3ecffef61" />
+
+---
+
+## API Data
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/d60b4fa1-6163-4f4c-8932-1beb1cb7a52f" />
