@@ -1,0 +1,23 @@
+name: Build ESP32 Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install PlatformIO
+        run: |
+          python3 -m pip install -U platformio
+
+      - name: Build firmware
+        env:
+          API_URL: ${{ secrets.API_URL }}   # Pass secret
+        run: |
+          platformio run -e esp32dev -DAPI_URL=\"${API_URL}\"
