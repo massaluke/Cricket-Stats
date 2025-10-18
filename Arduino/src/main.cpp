@@ -35,7 +35,7 @@ String data = "";
 
 ESP32Encoder encoder; // Create an encoder instance
 
-const char *api_url = "https://cricket-9vwkbt678-lukes-projects-4e5a708c.vercel.app/api/index.js";
+const char* api_url = API_URL;
 
 const int statusLedPin = 2;
 
